@@ -1768,7 +1768,7 @@ def eval_tax_slab_condition(condition, eval_globals=None, eval_locals=None):
 			"float": float,
 			"long": int,
 			"round": round,
-			"date": datetime.date,
+			"date": date,
 			"getdate": getdate,
 		}
 
